@@ -20,7 +20,7 @@ public class Class1 {
         Employee em[] = new Employee[nbr];
         try {
             /*ObjectOutputStream obj = new ObjectOutputStream(new FileOutputStream("emp2.dat"));*/
-            RandomAccessFile raf = new RandomAccessFile("emp3.dat", "rw");
+            RandomAccessFile raf = new RandomAccessFile("emp.dat", "rw");
             for (int index = 0; index < em.length; index++) {
                 System.out.println("Entrer le nom : ");
                 String name = sc.next();
