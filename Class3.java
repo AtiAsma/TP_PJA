@@ -11,7 +11,7 @@ public class Class3 {
         Employee em = new Employee();
         try {
             RandomAccessFile raf = new RandomAccessFile("empdirect.dat","rw");
-            System.out.println("Entrer le numero d'employee : ");
+            System.out.println("Entrer le numero de l'employee : ");
 			int n = sc.nextInt();
             if (em.getNumber()==n) {
                 System.out.print(raf.readUTF());
