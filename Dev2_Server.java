@@ -48,7 +48,7 @@ public class Dev2_Server {
 
             }
         } catch (Exception e) {
-            
+            System.out.println(e.toString());
         }
     }
     
