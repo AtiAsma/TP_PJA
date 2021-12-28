@@ -25,7 +25,7 @@ public class Dev2_client {
  
  
         } catch (Exception e) {
-            
+            System.out.println(e.toString());
         }
      }
     
